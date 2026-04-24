@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.hero-container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-container p{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    line-height: 1.1;
+}
+
+.name, .developer{
+    font-size: 1.8rem;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFF00;
+}
+
+.front-end{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Orbitron", sans-serif;
+}
+
+.hero-btn{
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-btn button{
+    margin-left: 20px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    width: 100px;
+    height: 25px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.hero-btn button:hover{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
