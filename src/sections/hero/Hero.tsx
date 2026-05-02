@@ -13,7 +13,7 @@ export function Hero(){
                     <span className="developer">Developer</span>
                 </p>
                 <div className="hero-btn">
-                    <a href="#sobre"><button>Sobre</button></a>
+                    <a href="#about"><button>Sobre</button></a>
                     <a href="#portfolio"><button>Portfólio</button></a>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import "./sobre.css"
 export function Sobre(){
     return(
         <section className="container-about" id="about">
+            <h2>QUEM SOU EU</h2>
             <div className="about-content">
                 <p>
                     Sou desenvolvedor front-end com foco em criar interfaces funcionais, performáticas e orientadas à

@@ -1,14 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
 .skills-container{
     width: 100%;
     background-color: #000;
-    height: 100%;
-    padding: 20px;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+
+.skills-title{
+    font-family: "Orbitron", sans-serif;
+    font-size: 2rem;
+    color: #FFFF00;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.skills-cards{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    margin: 0 auto;
 }
 
 .card-container{

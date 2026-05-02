@@ -4,6 +4,13 @@
     padding: 20px;
 }
 
+.container-about h2{
+    font-family: "Orbitron", sans-serif;
+    font-size: 2rem;
+    color: #FFFF00;
+    text-align: center;
+    margin-bottom: 20px;
+}
 .about-content{
     display: flex;
     justify-content: center;

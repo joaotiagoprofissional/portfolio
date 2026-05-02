@@ -40,9 +40,9 @@ export function Menu(){
                 <li><a href="/">Currículo</a></li>
             </ul>
             <div className="nav-icons">
-                <FaLinkedin />
-                <FaGithub />
-                <FaWhatsapp />
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-tiago-mattos-silva-042189391/" target="_blank"><FaLinkedin /></a>
+                <a href="https://github.com/joaotiagoprofissional" target="_blank"><FaGithub /></a>
+                <a href="https://wa.me/5521972149736?text=ol%C3%A1%20vim%20pelo%20portfolio" target="_blank"><FaWhatsapp /></a>
             </div>
         </nav>
     )

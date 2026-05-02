@@ -5,13 +5,16 @@ import "./skills.css"
 export function Skills(){
     return(
         <section className="skills-container" id="skills">
-            {cards.map((card)=>(
-                <div className="card-container" key={card.id}>
-                <img src={card.image} alt={card.title} />
-                <h4>{card.title}</h4>
-                <p>{card.description}</p>
+            <h2 className="skills-title">FERRAMENTAS DE TRABALHO</h2>
+            <div className="skills-cards">
+                {cards.map((card)=>(
+                    <div className="card-container" key={card.id}>
+                        <img src={card.image} alt={card.title} />
+                        <h4>{card.title}</h4>
+                        <p>{card.description}</p>
+                    </div>
+                ))}
             </div>
-            ))}
         </section>
     )
 }
